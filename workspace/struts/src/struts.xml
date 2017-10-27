@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<!-- 设置上传文件最大为10M -->
+	<constant name="struts.multipart.maxSize" value="10240000"/>
+	<package name="basicstruts" extends="struts-default">
+	  <interceptors>
+	  	 <interceptor name="dateInterceptor" class="com.garyhu.intercept.DateInterceptor"/>
+	  </interceptors>
+ 
+	  <action name="index">
+	    <result>index.jsp</result>
+	  </action>    
+	  <action name="showProduct" class="com.garyhu.action.ProductAction" method="show">
+	  	<result name="show">show.jsp</result>
+	  </action> 
+	  
+	  <action name="addProduct" class="com.garyhu.action.ProductAction" method="add">
+        <result name="input">addProduct.jsp</result>
+	  	<result name="show">show.jsp</result>
+	  </action> 
+	  
+	  <action name="upload" class="com.garyhu.action.UploadAction" method="upload">
+	  	<result name="success">success.jsp</result>
+	  </action>
+	  
+	  <action name="listProduct" class="com.garyhu.action.ProductAction" method="list">
+	     <interceptor-ref name="dateInterceptor" />
+         <interceptor-ref name="defaultStack" /> 
+	     <result name="list">list.jsp</result>
+	  </action>
+	  
+	  <action name="showListProduct" class="com.garyhu.action.ProductAction" method="showList">
+	  	 <result name="showList">showList.jsp</result>
+	  </action>
+	  
+	  <action name="addPageProduct" class="com.garyhu.action.ProductAction" method="addPage">
+	  	  <result name="addPage" type="redirect">addPageProduct.jsp?name=${name}</result>
+	  </action>
+	  
+	  <!-- 使用通配符* -->
+	  <!-- <action name="*Product" class="com.garyhu.action.ProductAction" method="{1}">
+	     <interceptor-ref name="dateInterceptor" />
+         <interceptor-ref name="defaultStack" />   
+	     <result name="show">show.jsp</result>
+	     <result name="list">list.jsp</result>
+	  </action> -->
+ 
+	</package>
+ 
+</struts>

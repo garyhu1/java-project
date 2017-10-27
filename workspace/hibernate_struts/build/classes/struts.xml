@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+   <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+ 
+    <package name="basicstruts" extends="struts-default">
+    	<action name="addProduct" class="com.garyhu.action.ProductAction" method="add">
+    		<result name="list" type="redirect">listProduct</result>
+    	</action>
+    	<action name="listProduct" class="com.garyhu.action.ProductAction" method="list">
+    		<result name="listJsp">/product/list.jsp</result>
+    	</action>
+    	<action name="deleteProduct" class="com.garyhu.action.ProductAction" method="delete">
+    		<result name="list" type="redirect">listProduct</result>
+    	</action>
+    	<action name="editProduct" class="com.garyhu.action.ProductAction" method="edit">
+    		<result name="edit">/product/edit.jsp</result>
+    	</action>
+    	<action name="updateProduct" class="com.garyhu.action.ProductAction" method="update">
+    		<result name="list" type="redirect">listProduct</result>
+    	</action>
+    </package>
+</struts>    

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping package="com.garyhu.pojo">
+    <class name="Product" table="product_">
+        <id name="id" column="id">
+            <generator class="native">
+            </generator>
+        </id>
+        <version name="version" column="ver" type="int"></version>
+        <property name="name" />
+        <property name="price" />
+        <many-to-one name="category" class="Category" column="cid"/>
+        
+        <set name="users" table="user_product" lazy="false">
+        	<key column="pid"/>
+        	<many-to-many column="uid" class="User" />
+        </set>
+    </class>
+     
+</hibernate-mapping>
