@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- 把 testConfig.jsp配置为一个 servlet -->
+  <servlet>
+    <servlet-name>testConfig</servlet-name>
+    <jsp-file>/testConfig.jsp</jsp-file>
+    <!-- 配置初始化参数 -->
+    <init-param>
+      <param-name>database-ip</param-name>
+      <param-value>127.0.0.1</param-value>
+    </init-param>
+  </servlet>
+  <!-- 将路径 testConfig映射到testConfig.jsp,所以访问时直接访问testConfig -->
+  <servlet-mapping>
+    <servlet-name>testConfig</servlet-name>
+    <url-pattern>/testConfig</url-pattern>
+  </servlet-mapping>
+</web-app>

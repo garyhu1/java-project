@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>更新英雄</title>
+    </head>
+    <body>
+        <form action="updateHero" method="post">
+            <label for="hero-name">名称 ：</label><input type="text" name="heroName" id="hero-name"/><br/><br/>
+            <label for="hero-hp">血量 ：</label><input type="text" name="heroHp" id="hero-hp"/><br/><br/>
+            <label for="hero-damage">伤害 ：</label><input type="text" name="heroDamage" id="hero-damage"/><br/><br/>
+            <input type="hidden" name="id" id="hero-id"/>
+            <input type="submit" value="更新"/>
+        </form>
+    </body>
+    <script>
+        var url = location.href;
+        var num = url.indexOf("=");
+        var params = url.substr(num+1);
+        var heroId = document.getElementById("hero-id");
+        heroId.setAttribute("value",params);
+    </script>
+</html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HandleSQL:war">
+    <output-path>$PROJECT_DIR$/../HandleSQL/target</output-path>
+    <root id="archive" name="HandleSQL.war">
+      <element id="artifact" artifact-name="HandleSQL:war exploded" />
+    </root>
+  </artifact>
+</component>
