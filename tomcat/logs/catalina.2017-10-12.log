@@ -1,0 +1,860 @@
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 4:03:55 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 4:03:55 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 4:03:56 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 4:03:56 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 4:03:56 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 651 ms
+十月 12, 2017 4:03:56 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 4:03:56 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 4:03:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 4:03:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 374 ms
+十月 12, 2017 4:03:56 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 4:03:56 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 4:03:56 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 433 ms
+十月 12, 2017 4:03:57 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 4:03:57 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:24:05 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:24:05 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:24:05 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:24:14 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:24:14 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:24:14 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:24:14 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 311 ms
+十月 12, 2017 5:24:15 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:24:15 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:24:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:24:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 217 ms
+十月 12, 2017 5:24:15 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:24:15 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:24:15 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 250 ms
+十月 12, 2017 5:24:15 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:24:15 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:26:29 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:26:29 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:26:29 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:26:37 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:26:37 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:26:37 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:26:37 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 329 ms
+十月 12, 2017 5:26:38 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:26:38 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:26:38 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:26:38 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 208 ms
+十月 12, 2017 5:26:38 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:26:38 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:26:38 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 237 ms
+十月 12, 2017 5:26:38 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:26:38 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:27:22 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:27:22 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:27:22 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:27:30 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:27:30 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:27:30 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 291 ms
+十月 12, 2017 5:27:30 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:27:30 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 208 ms
+十月 12, 2017 5:27:30 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:27:30 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:27:30 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 239 ms
+十月 12, 2017 5:27:31 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:27:31 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:28:13 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:13 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:13 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:28:21 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:28:21 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:21 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 329 ms
+十月 12, 2017 5:28:21 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:28:21 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 204 ms
+十月 12, 2017 5:28:21 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:21 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:21 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 232 ms
+十月 12, 2017 5:28:22 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:28:22 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:28:39 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:39 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:39 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:28:46 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:28:46 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:46 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 305 ms
+十月 12, 2017 5:28:46 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:28:46 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:28:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:28:47 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 198 ms
+十月 12, 2017 5:28:47 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:28:47 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:28:47 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 224 ms
+十月 12, 2017 5:28:47 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:28:47 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:29:49 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:29:49 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:29:49 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:29:57 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:29:57 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:29:57 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 339 ms
+十月 12, 2017 5:29:57 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:29:57 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 210 ms
+十月 12, 2017 5:29:57 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:29:57 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 240 ms
+十月 12, 2017 5:29:57 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:29:57 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:51:19 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:51:19 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:51:19 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:51:27 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:51:27 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:51:27 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 327 ms
+十月 12, 2017 5:51:27 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:51:27 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 209 ms
+十月 12, 2017 5:51:27 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:51:27 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 239 ms
+十月 12, 2017 5:51:27 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:51:27 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:52:32 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:52:32 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:52:32 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:52:40 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:52:40 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:52:40 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 297 ms
+十月 12, 2017 5:52:40 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:52:40 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 197 ms
+十月 12, 2017 5:52:40 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:52:40 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 224 ms
+十月 12, 2017 5:52:40 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:52:40 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 5:55:32 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:55:32 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:55:32 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_131\jre
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_131-b11
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\tomcat
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\tomcat
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote=
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=1099
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\tomcat\conf\logging.properties
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\tomcat\endorsed
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\tomcat
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\tomcat
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\tomcat\temp
+十月 12, 2017 5:55:40 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\java\apache-maven-3.5.0\bin;c:\program files\graphicsmagick-1.3.23-q8;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\devtools\svn\bin;D:\devtools\tess-ocr\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Users\CJY\AppData\Local\Android\sdk1\tools;%ANDRIOD_HOME%\platform-tools;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseGit\bin;C:\Users\CJY\AppData\Local\atom\bin;C:\Users\CJY\AppData\Roaming\npm;.
+十月 12, 2017 5:55:40 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:55:40 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 342 ms
+十月 12, 2017 5:55:40 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+十月 12, 2017 5:55:40 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\tomcat\webapps\ROOT
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory D:\tomcat\webapps\ROOT has finished in 239 ms
+十月 12, 2017 5:55:40 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 5:55:40 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 275 ms
+十月 12, 2017 5:55:40 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\MyMVN\target\MyMVN\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+十月 12, 2017 5:55:40 下午 org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+十月 12, 2017 6:11:43 下午 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 6:11:43 下午 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8089"]
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+十月 12, 2017 6:11:43 下午 org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8089"]
