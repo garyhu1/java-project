@@ -32,7 +32,7 @@
 		
        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="hibernatestruts" path="/hibernatestruts" reloadable="true" source="org.eclipse.jst.jee.server:hibernatestruts"/></Host>
+      <Context docBase="springmvc" path="/springmvc" reloadable="true" source="org.eclipse.jst.jee.server:springmvc"/></Host>
     </Engine>
   </Service>
 </Server>
