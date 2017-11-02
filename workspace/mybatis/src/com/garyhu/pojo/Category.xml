@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.garyhu.pojo">
+	<!-- 开启二级缓存 -->
+	<cache/>
+	<!-- 向数据库插入数据 -->
+	<insert id="addCategory" parameterType="Category">
+		insert into category_ (name) values (#{name})
+	</insert>
+	
+	<!-- 从数据库删除指定id的数据 -->
+	<delete id="deleteCategory" parameterType="Category">
+		delete from category_ where id = #{id}
+	</delete>
+	
+	<!-- 条件查询 -->
+	<select id="getCategory" parameterType="_int" resultType="Category">
+		select * from category_ where id = #{id}
+	</select>
+	
+	<!-- 根据id更新数据库 -->
+	<update id="updateCategory" parameterType="Category">
+		update category_ set name=#{name} where id = #{id}
+	</update>
+	
+	<!-- 动态的SQL语句 set -->
+	<update id="udateCate" parameterType="Category">
+		update category_ 
+		<set>
+			<if test="name!=null">
+				name=#{name},
+			</if>
+			<if test="id!=null and id!=0">
+			    
+			</if>
+		</set>
+	</update>
+	
+	<!-- 查询数据库所有数据 -->
+	<select id="listCategory" resultType="Category">
+		select * from category_
+	</select>
+	
+	<!-- 分页查询 -->
+	<select id="listCateg" resultType="Category">
+		select * from category_
+		<!-- <if test="start!=null and count!=null">
+			limit #{start},#{count}
+		</if> -->
+	</select>
+	
+	<!-- 模糊查询 -->
+	<select id="listCategoryByName" parameterType="String" resultType="Category">
+		select * from category_ where name like concat('%',#{0},'%')
+	</select>
+	
+	<!-- 动态SQL语句    bind 字符串拼接 -->
+	<select id="listCa" parameterType="String" resultType="Category">
+	    <bind name="likename" value="'%'+name+'%'"/>
+		select * from category_ where name like #{likename}
+	</select>
+	
+	<!-- 动态SQL语句 if  -->
+	<select id="listCate" resultType="Category">
+		select * from category_
+		<if test="name!=null">
+			where name like concat('%',#{name},'%')
+		</if>
+	</select>
+	
+	<!-- 条件加模糊查询 -->
+	<select id="listCategoryByIdAndName" parameterType="map" resultType="Category">
+		select * from category_ where id>#{id} and name like concat('%',#{name},'%')
+	</select>
+	
+	<!-- 动态SQL语句 where -->
+	<select id="listCat" resultType="Category">
+		select * from category_ 
+		<where>
+		 	<if test="name!=null">
+		 		and name like concat('%',#{name},'%')
+		 	</if>
+		 	<if test="id!=null and id!=0">
+		 		and id > #{id}
+		 	</if>
+		</where>
+	</select>
+	
+	<!-- 动态SQL语句    trim -->
+	<!-- trim 用来定制想要的功能    如下所示 -->
+	<!-- <select id="listProduct" resultType="Product">
+        select * from product_
+        <trim prefix="WHERE" prefixOverrides="AND |OR ">
+            <if test="name!=null">
+                and name like concat('%',#{name},'%')
+            </if>         
+            <if test="price!=null and price!=0">
+                and price > #{price}
+            </if> 
+        </trim>       
+    </select>
+     
+    <update id="updateProduct" parameterType="Product" >
+        update product_ 
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="name != null">name=#{name},</if>
+            <if test="price != null">price=#{price}</if>
+              
+        </trim>
+         
+         where id=#{id}    
+    </update> -->
+    
+    
+    <!-- 动态SQL语句      choose 因为没有if  else 所以可以用choose 加 when 和 otherwise来代替 -->
+    <!-- 运行结果分析：  提供了任何条件，就进行条件查询，否则就使用id>1这个条件。 -->
+    <!-- <select id="listProduct" resultType="Product">
+              SELECT * FROM product_ 
+              <where>
+                <choose>
+                  <when test="name != null">
+                    and name like concat('%',#{name},'%')
+                  </when>           
+                  <when test="price !=null and price != 0">
+                    and price > #{price}
+                  </when>                 
+                  <otherwise>
+                    and id >1
+                  </otherwise>
+                </choose>
+              </where>
+       </select>  -->
+</mapper>    
